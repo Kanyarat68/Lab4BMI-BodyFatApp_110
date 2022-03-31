@@ -39,7 +39,7 @@ class _BmimainState extends State<Bmimain> {
               Padding(
                 padding: const EdgeInsets.only(top: 10),
                 child: Container(
-                  color: Color.fromRGBO(255, 250, 205, 10),
+                  color: Color.fromARGB(246, 206, 255, 191),
                   child: Padding(
                     padding: const EdgeInsets.only(top: 10, bottom: 10),
                     child: Text('   ผล BMI คือ $_result   ',
@@ -135,7 +135,7 @@ class _BmimainState extends State<Bmimain> {
                       child: Container(
                         width: 300,
                         height: 170,
-                        color: Color.fromRGBO(255, 245, 238, 10),
+                        color: Color.fromARGB(246, 240, 191, 232),
                         child: Padding(
                           padding: const EdgeInsets.only(top: 10, bottom: 10),
                           child: Column(
@@ -160,7 +160,7 @@ class _BmimainState extends State<Bmimain> {
                           Navigator.pop(context);
                         },
                         child: Text('ปิด',),
-                        color: Colors.red[600],
+                        color: Colors.red[700],
                       ),
                     ],
                   );

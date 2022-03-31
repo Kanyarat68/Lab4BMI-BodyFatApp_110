@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage> {
           'แอปพลิเคชันคำนวณ BMI',
           style: TextStyle(
             fontSize: 24,
-            color: Colors.black,
+            color: Colors.purple,
           ),
         ),
       ],
@@ -96,20 +96,20 @@ class _HomePageState extends State<HomePage> {
           icon: const Icon(Icons.help),
           label: const Text('ความช่วยเหลือ'),
           style: ButtonStyle(
-            foregroundColor: MaterialStateProperty.all(Colors.white),
+            foregroundColor: MaterialStateProperty.all(Colors.lime),
           ),
         ),
         Container(
           width: 2,
           height: 20,
-          color: Colors.white,
+          color: Colors.yellow,
         ),
         TextButton.icon(
           onPressed: () {},
           icon: const Icon(Icons.info),
           label: const Text('เกี่ยวกับแอป'),
           style: ButtonStyle(
-            foregroundColor: MaterialStateProperty.all(Colors.white),
+            foregroundColor: MaterialStateProperty.all(Colors.lime),
           ),
         ),
       ],
